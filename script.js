@@ -10,3 +10,8 @@ function getRandomInt(min, max) {
   input.addEventListener('input', (click) => {
     console.log('Текущий текст:', event.target.value);
   });
+
+  function getData() {
+    let numeric = document.getElementById('myInput').value; // Получение значения
+
+  }
